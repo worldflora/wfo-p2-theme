@@ -17,9 +17,9 @@ $primary: #2e8a88;
 $secondary: #41a978;
 $light: white;
 
-$white:    #fff;
+$white:    #fff ;
 $gray-100: #f8f9fa ;
-$gray-200: #dddcda ; // warmer
+$gray-200: #e9ecef ;
 $gray-300: #dee2e6 ;
 $gray-400: #ced4da ;
 $gray-500: #adb5bd ;
@@ -27,7 +27,7 @@ $gray-600: #6c757d ;
 $gray-700: #495057 ;
 $gray-800: #343a40 ;
 $gray-900: #212529 ;
-$black:    #000 ;
+$black:    #000;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -39,15 +39,17 @@ $black:    #000 ;
     color: white;
     background-image: url("../images/logo512.png");
     background-repeat: no-repeat;
-    background-position-y: -40px;
     background-position-x: right;
+    background-attachment: fixed;
+    background-position-y: -40px;
 }
 
 .wfo-navbar{
     background-image: url("../images/logo512.png");
     background-repeat: no-repeat;
-    background-position-y: -111px;
+    background-position-y: -40px;
     background-position-x: right;
+    background-attachment: fixed;
 } 
 
 body{
@@ -58,6 +60,7 @@ body{
     background-position-y: -40px;
     background-position-x: right;
     background-blend-mode: lighten;
+    background-attachment: fixed;
 
 } 
 

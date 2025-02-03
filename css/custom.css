@@ -21,7 +21,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #dddcda;
+  --bs-gray-200: #e9ecef;
   --bs-gray-300: #dee2e6;
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
@@ -67,7 +67,7 @@
   --bs-info-border-subtle: #9eeaf9;
   --bs-warning-border-subtle: #ffe69c;
   --bs-danger-border-subtle: #f1aeb5;
-  --bs-light-border-subtle: #dddcda;
+  --bs-light-border-subtle: #e9ecef;
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -86,8 +86,8 @@
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
   --bs-secondary-color-rgb: 33, 37, 41;
-  --bs-secondary-bg: #dddcda;
-  --bs-secondary-bg-rgb: 221, 220, 218;
+  --bs-secondary-bg: #e9ecef;
+  --bs-secondary-bg-rgb: 233, 236, 239;
   --bs-tertiary-color: rgba(33, 37, 41, 0.5);
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
@@ -11972,15 +11972,17 @@ textarea.form-control-lg {
   color: white;
   background-image: url("../images/logo512.png");
   background-repeat: no-repeat;
-  background-position-y: -40px;
   background-position-x: right;
+  background-attachment: fixed;
+  background-position-y: -40px;
 }
 
 .wfo-navbar {
   background-image: url("../images/logo512.png");
   background-repeat: no-repeat;
-  background-position-y: -111px;
+  background-position-y: -40px;
   background-position-x: right;
+  background-attachment: fixed;
 }
 
 body {
@@ -11990,6 +11992,7 @@ body {
   background-position-y: -40px;
   background-position-x: right;
   background-blend-mode: lighten;
+  background-attachment: fixed;
 }
 
 .nav-link {
